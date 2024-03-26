@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Poetry Hub</h1>
+    </header>
+    <main>
+        <section id="post-form">
+            <h2>Post Your Poem</h2>
+            <form id="poem-form">
+                <textarea id="poem-text" placeholder="Write your poem here..." required></textarea>
+                <input type="file" id="image-upload" accept="image/*">
+                <button type="submit">Post</button>
+            </form>
+        </section>
+        <section id="poem-feed">
+            <!-- Poem posts will be dynamically added here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Poetry Hub</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
